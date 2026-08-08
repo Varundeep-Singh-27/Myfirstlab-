@@ -1,0 +1,1 @@
+Day 3 - Learned file permissions chmod 000, 644, 755
