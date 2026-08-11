@@ -1,0 +1,5 @@
+Day 4 - User Management
+whoami = mai kaun hu (u0_a412)
+id = meri power aur mere groups kya hain
+/etc/passwd = system me kitne users hain uski list
+Aaj samjha - Cloud me har user ko alag ID milti hai security ke liye
