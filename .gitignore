@@ -1,3 +1,5 @@
 .myconfig
 bigfile.txt
 myuser.txt
+.env
+app.log
