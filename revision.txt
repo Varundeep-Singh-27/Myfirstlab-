@@ -1,0 +1,36 @@
+LINUX TERMUX - MASTER NOTES (Day 1 to Day 8)
+1. Tu Kaha Hai?
+pwd - Present Working Directory. Bataega tu abhi kis folder me hai.
+ls - List. Folder me kya kya hai.
+ls -a - Chhupi hui files bhi dikhayega.
+ls -l - Detail me dikhayega (size, date, permission).
+
+2. Ghumna (Navigation)
+cd foldername - Us folder me jao (Relative)
+cd ~/foldername - Ghar se seedha us folder me jao (Absolute - Safe)
+cd .. - Ek piche jao
+cd ~ ya cd - Seedha ghar wapas
+~ ka matlab = Tera ghar /data/data/com.termux/files/home
+
+3. Banana - Mitana
+mkdir naam - Naya folder banao
+touch naam.txt - Nayi khali file banao
+rm naam.txt - File mitao
+rm -r naam - Folder mitao (r = recursive)
+rm letter.txt. -> ye galat hai, dot ka dhyan rakho. Linux me letter.txt aur letter.txt. alag hain.
+
+4. Likhna - Padhna (Sabse Important)
+cat naam.txt - File ke andar kya hai padhna
+
+echo "kuch bhi" > file.txt - > matlab OVERWRITE
+  Purana sab kuch mita dega, naya likh dega. DANGEROUS.
+
+echo "kuch bhi" >> file.txt - >> matlab APPEND
+  Purane ke aage jod dega. SAFE.
+
+cat file1 file2 - Dono ko ek saath padhna
+cat file1 file2 > file3 - Dono ko jod ke naya file banana (Merging)
+
+5. Teri Galti Se Seekha Hua Lesson
+Tune echo "im here" > letter.txt mara tha, to Day-4 ka data udd gaya.
+Yaad rakh: Jab bhi purani file me kuch add karna ho, hamesha >> use kar.D

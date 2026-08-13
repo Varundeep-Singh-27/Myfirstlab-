@@ -1,0 +1,6 @@
+day-4 i am learning cloud
+Day-10 clean-up complete,ready for next level >> journey.txt
+
+cat journey.txt 
+echo Day-10 clean-up complete,ready for next level
+Day-11 : Day 11 - I understood hidden files are just dot files to hide important config
