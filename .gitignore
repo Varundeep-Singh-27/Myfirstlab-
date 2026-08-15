@@ -3,3 +3,5 @@ bigfile.txt
 myuser.txt
 .env
 app.log
+*tar.gz
+restore_backup/
