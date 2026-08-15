@@ -5,3 +5,5 @@ cat journey.txt
 echo Day-10 clean-up complete,ready for next level
 Day-11 : Day 11 - I understood hidden files are just dot files to hide important config
 Day 11 revision done - gitignore working, status clean!
+vim done
+Day- 12.5 : vim +logs+ grep -i + gitignore tested
