@@ -1,0 +1,7 @@
+===phase 2 day 1 notes==
+My private IP from ifconfig: 
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet 192.0.0.4  netmask 255.255.255.255  destination 192.0.0.4
+ 
+
+Ping to 8.8.8.8: 0% loss = Internet OK
