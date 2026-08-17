@@ -8,3 +8,4 @@ restore_backup/
 app.log
 passwords.txt
 *.log
+error_report.txt
