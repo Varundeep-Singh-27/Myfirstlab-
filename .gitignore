@@ -6,3 +6,5 @@ app.log
 *tar.gz
 restore_backup/
 app.log
+passwords.txt
+*.log

@@ -1,9 +1,4 @@
-day-4 i am learning cloud
-Day-10 clean-up complete,ready for next level >> journey.txt
-
-cat journey.txt 
-echo Day-10 clean-up complete,ready for next level
-Day-11 : Day 11 - I understood hidden files are just dot files to hide important config
-Day 11 revision done - gitignore working, status clean!
-vim done
-Day- 12.5 : vim +logs+ grep -i + gitignore tested
+Task 2: gitignore root fix with -uall check - DONE
+Task 3: backup done - app.log excluded - DONE
+Task 4: vim edit done - port=3000 to 8080 - DONE
+Task 5: chmod 700 done -rwx------ - DONE
