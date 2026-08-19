@@ -5,3 +5,9 @@ My private IP from ifconfig:
  
 
 Ping to 8.8.8.8: 0% loss = Internet OK
+
+=== Day 2 - curl ===
+Private IP (ifconfig) = 192.0.0.4 = local only
+Public IP (curl ifconfig.me) = 152.58.114.11 = internet wala
+curl = client URL = bina browser ke data laana
+curl -I = sirf header, curl = full body
