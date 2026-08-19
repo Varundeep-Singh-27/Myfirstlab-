@@ -1,0 +1,25 @@
+=== Phase 2 Day 13 - Traceroute, DNS, Ports ===
+
+1. traceroute 8.8.8.8:
+   - 11 hops me google tak pahucha, 50ms latency
+   - Hop 1 * * * = Jio router ICMP block karta hai (normal)
+   - Hop 2-5 = Jio internal network 192.168.x.x
+   - Hop 8-11 = Google network 142.251.x.x / 192.178.x.x
+   - Use: Packet kaha atak raha hai, slow network debug
+
+2. DNS - nslookup / dig:
+   - google.com -> 142.250.182.110 (A record - IPv4)
+   - google.com -> 2404:6800:4013:807::8b (AAAA record - IPv6)
+   - DNS = Domain Name ko IP me convert karna
+   - dig +short = script me IP nikalne ke liye best
+   - dig full = Query time 92 msec, Server 8.8.8.8, NOERROR = success
+   - nslookup = simple, dig = detail wala (cloud me dig zyada use hota hai)
+
+3. Ports - ss / netstat:
+   - ss -tuln = kaunse ports listen kar rahe hain
+   - Termux me Permission denied = Normal hai (no root), EC2 pe chalega
+   - Important ports: 22=SSH, 80=HTTP, 443=HTTPS, 53=DNS, 3306=MySQL
+
+My Result:
+Traceroute: 11 hops, final 8.8.8.8 @ 50ms
+DNS: google.com = 142.250.182.110
