@@ -1,0 +1,28 @@
+=== Phase 2 Day 14 - SSH, Keys, SCP ===
+
+1. ssh-keygen -t rsa -b 2048 -f my-aws-key -N "":
+   - 2 files: private (my-aws-key) + public (my-aws-key.pub)
+   - Private = Ghar ki chabi, kabhi share mat karo
+   - Public = Tala, server pe lagta hai
+
+2. chmod 400 my-aws-key:
+   - Private key ko sirf owner read kar sake
+   - AWS mandatory: 400 nahi to UNPROTECTED PRIVATE KEY FILE error
+
+3. ssh-keygen -lf my-aws-key.pub:
+   - Output: 2048 SHA256:gBzMrIycp9ghAMCF4n+qhnl1Ac6ixS/exD2Jxm6BBRQ
+   - Key ka unique fingerprint
+
+4. SCP:
+   - scp -i my-aws-key secret.txt ubuntu@3.110.XX.XX:/home/ubuntu/
+   - Laptop se EC2 pe file bhejna
+
+5. SSH Config:
+   Host my-ec2
+     HostName 3.110.XX.XX
+     User ubuntu
+     IdentityFile ~/Myfirstlab-/phase2-day14/my-aws-key
+     Port 22
+   -> ssh my-ec2 se direct connect
+
+Result: Key pair generated successfully

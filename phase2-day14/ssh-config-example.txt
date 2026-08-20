@@ -1,0 +1,6 @@
+Host my-ec2
+  HostName 3.110.XX.XX
+  User ubuntu
+  IdentityFile ~/Myfirstlab-/phase2-day14/my-aws-key
+  Port 22
+
