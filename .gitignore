@@ -12,3 +12,10 @@ error_report.txt
 my-aws-key
 *.pem
 my-*.key
+phase2-day14/secret.txt
+phase2-day14/secret-copy-scp.txt
+phase2-day15/*.log
+phase2-day15/*.tar.gz
+phase2-day16/*.log
+phase2-day16/my-cron.log
+phase2-day16/backup.log

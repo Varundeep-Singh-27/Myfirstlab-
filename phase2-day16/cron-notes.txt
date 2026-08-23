@@ -1,0 +1,20 @@
+CRON = Server ka Alarm Clock
+
+Crontab format: * * * * * command
+                | | | | |
+                | | | | +-- Week ka din (0-7) Sunday=0
+                | | | +---- Mahina (1-12)
+                | | +------ Mahine ka din (1-31)
+                | +-------- Ghanta (0-23)
+                +---------- Minute (0-59)
+
+Examples:
+- * * * * * echo hi = har minute hi bolega
+- 0 9 * * * /backup.sh = roz subah 9 baje backup
+- 0 0 * * 0 /weekly.sh = har Sunday raat 12 baje
+- 30 2 * * * /update.sh = roz raat 2:30 baje update
+
+Commands:
+- crontab -l = time table dekho
+- crontab -e = time table likho/badaldo
+- crontab -r = time table hata do (dhyan se!)

@@ -1,0 +1,18 @@
+SYSTEMD = Server ka Manager
+
+Socho server pe 10 naukar hain - nginx (website wala), ssh (gate wala), etc.
+systemctl se unko order dete hain.
+
+Commands (Ubuntu Server pe):
+- systemctl status nginx = nginx zinda hai kya check karo
+- systemctl start nginx = nginx ko kaam pe lagao
+- systemctl stop nginx = nginx ko roko
+- systemctl restart nginx = band karke fir chalu
+- systemctl enable nginx = server restart ho to khud chalu ho jana
+- systemctl disable nginx = auto chalu mat hona
+
+Logs dekhna:
+- journalctl -u nginx = nginx ne kya kaam kiya, error aaya kya?
+- journalctl -f = live logs
+
+Termux me ye nahi chalega kyunki Android hai, par EC2 pe yehi chalega.

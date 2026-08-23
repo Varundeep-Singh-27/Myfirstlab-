@@ -1,0 +1,12 @@
+UFW - Uncomplicated Firewall
+
+Ubuntu Server par hota hai, Termux par nahi.
+
+Commands:
+ufw status              # firewall on hai ya off
+ufw enable              # on karo
+ufw allow 22/tcp        # SSH ke liye port 22 kholo
+ufw allow 80/tcp        # Website ke liye port 80 kholo
+ufw deny 23             # Telnet block karo
+
+AWS me iska kaam Security Group karta hai.
