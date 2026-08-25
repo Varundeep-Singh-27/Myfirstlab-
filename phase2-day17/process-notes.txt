@@ -1,0 +1,19 @@
+PROCESS = Server pe chal raha ek kaam
+Har process ka ek PID (ID number) hota hai
+
+Commands:
+1. ps aux = Saare processes dekho
+2. ps aux | grep nginx = sirf nginx wala dhoondo
+3. top = Live dekho kaun kitni RAM/CPU kha raha hai (q se bahar)
+4. kill PID = us kaam ko band karo
+5. kill -9 PID = zabardasti band karo (force)
+6. jobs = background ke kaam dekho
+7. & = koi kaam background me chalao
+8. fg = background wale ko aage lao
+
+Practical Termux pe:
+- sleep 100 & = background me 100 sec so jao
+- jobs = background jobs dekho
+- kill %1 = job number 1 ko band karo
+- ps aux | grep sleep = check karo sleep chal raha hai kya
+- killall sleep = saare sleep band
