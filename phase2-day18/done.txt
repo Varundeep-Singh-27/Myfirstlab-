@@ -1,0 +1,1 @@
+Day 18 networking practical done - ping ok, curl ok, ip a blocked in Termux but works on real server

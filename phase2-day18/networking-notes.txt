@@ -1,0 +1,20 @@
+NETWORKING = Server ka Internet System
+
+1. ping google.com = google zinda hai kya? Internet chal raha hai kya?
+   - ping = ball phenkna, reply aaya to samjho connection hai
+
+2. curl https://example.com = website ka data lana (API testing me sabse zyada use)
+   - curl ifconfig.me = mera IP kya hai?
+
+3. ip a / ifconfig = mera network card kya hai, mera IP kya hai?
+
+4. netstat -tulpn / ss -tulpn = kaunse ports khule hain?
+   - Port = Ghar ke darwaze jaise (80=website, 22=ssh, 443=secure website)
+
+5. ssh user@IP = dusre server me ghusna (EC2 me yahi karte hain)
+   - ssh -i key.pem ubuntu@IP
+
+6. wget = file download karna internet se
+
+Interview lines:
+- "ping for connectivity, curl for API testing, netstat/ss for open ports check
