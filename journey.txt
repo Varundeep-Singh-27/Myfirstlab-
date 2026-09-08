@@ -2,3 +2,4 @@ Task 2: gitignore root fix with -uall check - DONE
 Task 3: backup done - app.log excluded - DONE
 Task 4: vim edit done - port=3000 to 8080 - DONE
 Task 5: chmod 700 done -rwx------ - DONE
+day-18; thinkpad setup done - wsl + vscode + git connected
