@@ -34,3 +34,4 @@ cat file1 file2 > file3 - Dono ko jod ke naya file banana (Merging)
 5. Teri Galti Se Seekha Hua Lesson
 Tune echo "im here" > letter.txt mara tha, to Day-4 ka data udd gaya.
 Yaad rakh: Jab bhi purani file me kuch add karna ho, hamesha >> use kar.D
+practice commands and change permisions
